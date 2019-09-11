@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Sep 11 21:19:49 2019
+Created on Wed Sep 11 23:48:24 2019
 
 @author: changsicjung
 """
@@ -47,3 +47,19 @@ def solution(n, lost, reserve):
 solution(5, [2,4], [1,3,5])
 solution(5, [2,4], [3])
 solution(3, [3], [1])
+
+
+
+# 인기 풀이
+
+def solution(n, lost, reserve):
+    _reserve = [r for r in reserve if r not in lost]
+    _lost = [l for l in lost if l not in reserve]
+    for r in _reserve:
+        f = r - 1
+        b = r + 1
+        if f in _lost:
+            _lost.remove(f)
+        elif b in _lost:
+            _lost.remove(b)
+    return n - len(_lost)
