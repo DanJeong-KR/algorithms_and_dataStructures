@@ -52,7 +52,7 @@ solution(3, [3], [1])
 
 # 인기 풀이
 
-def solution(n, lost, reserve):
+def solution2(n, lost, reserve):
     _reserve = [r for r in reserve if r not in lost]
     _lost = [l for l in lost if l not in reserve]
     for r in _reserve:
