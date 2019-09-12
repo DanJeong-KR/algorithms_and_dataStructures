@@ -7,6 +7,7 @@ Created on Thu Sep 12 13:38:52 2019
 """
 
 
+
 # 단 한명의 선수를 제외하고는 모든 선수가 마라톤을 완주했음
 # 마라톤에 참여한 선수들의 이름 participant
 # 완주한 선수들의 이름 completion
@@ -39,8 +40,8 @@ def solution(participant, completion):
     """
     
     # (2)
-    participant.sort()
-    completion.sort()
+    participant.sort() # O(NlogN)
+    completion.sort() # O(NlogN)
     for p, c in zip(participant, completion):
         if p != c:
             return p
@@ -48,8 +49,57 @@ def solution(participant, completion):
         return participant[-1]
         
 
+    
 # 인기 풀이
-        
+from collections import Counter
 def solution2(participant, completion):
-    answer = collections.Counter(participant) - collections.Counter(completion)
+    answer = Counter(participant) - Counter(completion)
+    
     return list(answer.keys())[0]
+
+def solution4(participant, completion):
+    p = Counter(participant)
+    p.subtract(Counter(completion))
+    print(p)
+    return [k for k, v in p.items() if v > 0][0]
+
+# 해시 테이블로 해결하는 풀이 -> dictionary 의 내부가 해시로 구현됨
+def solution3(participant, completion): 
+    d = {}
+    for x in participant: # n
+        d[x] = d.get(x, 0) + 1 # key x에 해당하는 값이 존재하면 존재하는 값을, 존재하지 않으면 0을 return
+    for x in completion: # n
+        d[x] -= 1 # 완주한 사람들 1씩 빼기
+        
+    dnf = [k for k, v in d.items() if v > 0] # n
+    answer = dnf[0]
+    return answer
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
