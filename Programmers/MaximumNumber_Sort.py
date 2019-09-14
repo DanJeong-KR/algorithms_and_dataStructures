@@ -41,18 +41,55 @@ numbers의 원소는 0 이상 1,000 이하입니다.
  
 '''
 
+## 강의 풀이
 def solution(numbers):
     
     #(1)
     numbers = [str(i) for i in numbers]
     
+    # (2)
     numbers.sort(key=lambda x : (x*4)[:4], reverse=True)
+    
+    #(3)
     if numbers[0] == '0':
         answer = '0'
     else:
         answer = ''.join(numbers)
-    #(2)
-    #first = sorted(numbers_str, key=itemgetter(0), reverse=True)
+    
     
     
     return answer
+
+
+## 인기풀이 1
+
+def solution2(numbers):
+    numbers = list(map(str, numbers))
+    numbers.sort(key=lambda x: x*3, reverse=True)
+    return str(int(''.join(numbers))) # '000' 을 0 으로 바꾸기 위해 int
+
+## 인기풀이 2
+    
+import functools
+
+def comparator(a,b):
+    t1 = a+b
+    t2 = b+a
+    #  t1이 크다면 1  // t2가 크다면 -1  //  같으면 0 (key function으로 만드려면 이렇게 해야함)
+    if int(t1) > int(t2):
+        return 1
+    elif int(t1) < int(t2):
+        return -1
+    else:
+        return 0
+
+def solution3(numbers):
+    n = [str(x) for x in numbers]
+    n = sorted(n, key=functools.cmp_to_key(comparator),reverse=True)
+    answer = str(int(''.join(n)))
+    return answer
+
+
+
+
+

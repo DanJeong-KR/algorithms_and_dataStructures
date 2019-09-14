@@ -8,3 +8,4 @@
 | Programmers | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | 탐욕법 | [![](images/python_logo.png?raw=true)](Programmers/Gymcloth_Greedy.py) |
 | Programmers | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | 해시 | [![](images/python_logo.png?raw=true)](Programmers/Marathon_Hash.py) |
 | Programmers | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 | [![](images/python_logo.png?raw=true)](Programmers/MaximumNumber_Sort.py) |
+| Programmers | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | 정렬 | [![](images/python_logo.png?raw=true)](Programmers/MakingBigNumber_Greedy.py) |
