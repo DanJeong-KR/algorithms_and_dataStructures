@@ -32,21 +32,20 @@ def solution(participant, completion):
         print('참여자와 완주자의 수가 조건에 맞지 않습니다. 완주자 수는 참여자 수 - 1')
         return 'error'
     
-    # (1)
-    """
-    for i in completion: 
-        if i in participant:
-            participant.remove(i) 
-    """
+    def solution(participant, completion):
     
-    # (2)
-    participant.sort() # O(NlogN)
-    completion.sort() # O(NlogN)
-    for p, c in zip(participant, completion):
-        if p != c:
-            return p
-    else:
-        return participant[-1]
+    system = dict(zip(participant, [0] * len(participant)))
+    
+    for i in participant:
+        system[i] += 1
+    
+    for comp in completion:
+        system[comp] -= 1
+    
+    answer = [i for i in system.items() if i[1] == 1]
+        
+    return answer[0][0]
+        
         
 
     

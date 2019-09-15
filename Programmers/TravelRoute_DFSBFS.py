@@ -36,11 +36,38 @@ tickets	return
 
 
 '''
-* 
+배경지식
+* 그래프
+    * 정점, 간선
+    * directed 그래프, undirected 그래프
+* 스택
+* 큐
+
+* 깊이우선 탐색
+* 너비우선 탐색
+
+해결
+* 한 붓 그리기 (문제에서 보장되어 있음)
+* 시작 정점은 언제나 ICN
+* 모든 정점 방문이 아니고, 모든 간선을 거쳐야 (언젠가 한 번 가야하는데, 그 순서를 결정하는 것)
+* 한 정점에서 택할 수 있는 간선이 두 개 이상인 경우는 알파벳 순서
+
+설계
+* 재귀적인 성질을 가진 한붓 그리기 문제
+* 재귀적인 성질을 가진 '그래프의 깊이 우선 탐색'을 응용하여 해결할 것
 '''
 test = [['ICN', 'SFO'], ['ICN', 'ATL'], ['SFO', 'ATL'], ['ATL', 'ICN'], ['ATL', 'SFO']]
 
 test.sort(key=lambda x: x[0] == 'ICN', reverse=True)
+
+temp = []
+
+for i in test:
+    if i[0] == 'ICN':
+        temp.append(i)
+    else:
+        break
+if temp
 
 
     
