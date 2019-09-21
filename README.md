@@ -14,5 +14,5 @@
 
 ## 생각나서 만들어 놓는 공식들.
 | 출처 | 문제 | 카테고리 | 파이썬 | 스위프트 |  
-| ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 |  | 파스칼 삼각형 | 최단거리 구할 때 | [![](images/python_logo.png?raw=true)](My/pascal_triangle/pascal_triangle.py) | [![](images/swift_logo.png?raw=true)](My/pascal_triangle/pascal_triangle.swift) |
