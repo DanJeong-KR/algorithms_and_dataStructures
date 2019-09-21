@@ -15,4 +15,12 @@ print(pascal(x: 2, y: 0))
 print(pascal(x: 2, y: 2))
 print(pascal(x: 14, y: 13))
 
-solution(5, [2, 4], [1, 3, 5])
+solution([6, 10, 2])
+
+print(1 > 0)
+print(0 > 0)
+
+print(0 < 0)
+print(0 == 0)
+
+print(Int("00")!)
