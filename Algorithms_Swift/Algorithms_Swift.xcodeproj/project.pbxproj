@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8EBE7B882336710F00906484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE7B872336710F00906484 /* main.swift */; };
-		8EBE7B8F2336743100906484 /* pascal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE7B8E2336743100906484 /* pascal.swift */; };
+		8EBE7B8F2336743100906484 /* Pascal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE7B8E2336743100906484 /* Pascal.swift */; };
+		8EBE7B9123368BC800906484 /* GymCloth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE7B9023368BC800906484 /* GymCloth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +27,8 @@
 /* Begin PBXFileReference section */
 		8EBE7B842336710F00906484 /* Algorithms_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBE7B872336710F00906484 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		8EBE7B8E2336743100906484 /* pascal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pascal.swift; sourceTree = "<group>"; };
+		8EBE7B8E2336743100906484 /* Pascal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pascal.swift; sourceTree = "<group>"; };
+		8EBE7B9023368BC800906484 /* GymCloth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymCloth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				8EBE7B872336710F00906484 /* main.swift */,
-				8EBE7B8E2336743100906484 /* pascal.swift */,
+				8EBE7B8E2336743100906484 /* Pascal.swift */,
+				8EBE7B9023368BC800906484 /* GymCloth.swift */,
 			);
 			path = Algorithms_Swift;
 			sourceTree = "<group>";
@@ -123,7 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EBE7B882336710F00906484 /* main.swift in Sources */,
-				8EBE7B8F2336743100906484 /* pascal.swift in Sources */,
+				8EBE7B8F2336743100906484 /* Pascal.swift in Sources */,
+				8EBE7B9123368BC800906484 /* GymCloth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

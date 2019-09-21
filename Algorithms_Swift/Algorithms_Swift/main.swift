@@ -14,3 +14,5 @@ print("Hello, World!")
 print(pascal(x: 2, y: 0))
 print(pascal(x: 2, y: 2))
 print(pascal(x: 14, y: 13))
+
+solution(5, [2, 4], [1, 3, 5])
