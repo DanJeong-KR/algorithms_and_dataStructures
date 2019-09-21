@@ -3,7 +3,7 @@
 * 문제를 분석하고 어떤 자료구조나 알고리즘을 사용할지 판단한다.
 
 ## Programmers
-| 출처 | 문제 | 카테고리 | 내 풀이 + 인기 풀이 |  
+| 출처 | 문제 | 카테고리 | 파이썬 |  
 | ------------- | ------------- | ------------- | ------------- |
 | Programmers | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | 탐욕법 | [![](images/python_logo.png?raw=true)](Programmers/Gymcloth_Greedy.py) |
 | Programmers | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | 해시 | [![](images/python_logo.png?raw=true)](Programmers/Marathon_Hash.py) |
@@ -13,6 +13,6 @@
 
 
 ## 생각나서 만들어 놓는 공식들.
-| 출처 | 문제 | 카테고리 | 공식 |  
+| 출처 | 문제 | 카테고리 | 파이썬 | 스위프트 |  
 | ------------- | ------------- | ------------- | ------------- |
-|  | 파스칼 삼각형 | 최단거리 구할 때 | [![](images/python_logo.png?raw=true)](My/pascal_triangle.py) |
+|  | 파스칼 삼각형 | 최단거리 구할 때 | [![](images/python_logo.png?raw=true)](My/pascal_triangle/pascal_triangle.py) | [![](images/swift_logo.png?raw=true)](My/pascal_triangle/pascal_triangle.swift) |

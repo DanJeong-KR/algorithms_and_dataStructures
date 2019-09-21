@@ -16,8 +16,7 @@ def pascal(x, y):
     if min(x, y) == 0:
         return 1
     
-    mini = min(x, y)
-    n = mini + max(x, y)
+    n = min(x, y) + max(x, y)
     
     p = dict()
     
