@@ -7,14 +7,29 @@
 //
 
 import Foundation
+func solution(_ n:Int, _ a:Int, _ b:Int) -> Int
+{
+  
+  if a.haha == b.haha {
+    return 1
+  }
+  var result = 1
+  var a = a
+  var b = b
+  while true {
+    a = a.haha
+    b = b.haha
+    result += 1
+    if abs(a - b) == 1 && a.haha == b.haha {
+      return result
+    }
+  }
+}
 
-print("Hello, World!")
+extension Int {
+  var haha: Int {
+    return Int((self + 1) / 2)
+  }
+}
 
-
-print(pascal(x: 2, y: 0))
-print(pascal(x: 2, y: 2))
-print(pascal(x: 14, y: 13))
-
-
-
-
+solution(8, 4, 7)

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8EBE7B882336710F00906484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE7B872336710F00906484 /* main.swift */; };
 		8EBE7B8F2336743100906484 /* Pascal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE7B8E2336743100906484 /* Pascal.swift */; };
+		8EBE7B9B23388B8B00906484 /* HyperConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE7B9A23388B8B00906484 /* HyperConnect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		8EBE7B842336710F00906484 /* Algorithms_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBE7B872336710F00906484 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EBE7B8E2336743100906484 /* Pascal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pascal.swift; sourceTree = "<group>"; };
+		8EBE7B9A23388B8B00906484 /* HyperConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperConnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				8EBE7B872336710F00906484 /* main.swift */,
 				8EBE7B8E2336743100906484 /* Pascal.swift */,
+				8EBE7B9A23388B8B00906484 /* HyperConnect.swift */,
 			);
 			path = Algorithms_Swift;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EBE7B882336710F00906484 /* main.swift in Sources */,
+				8EBE7B9B23388B8B00906484 /* HyperConnect.swift in Sources */,
 				8EBE7B8F2336743100906484 /* Pascal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
