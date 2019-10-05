@@ -11,7 +11,6 @@
 | Programmers | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | 탐욕법 | Level 2 | [![](images/python_logo.png?raw=true)](Programmers/MakingBigNumber_Greedy.py) | |
 | Programmers | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | 힙 | Level 2 | [![](images/python_logo.png?raw=true)](Programmers/더맵게/MakeHotter.py) | [![](images/swift_logo.png?raw=true)](Programmers/더맵게/MakeHotter.swift) |
 
-
 ## 생각나서 만들어 놓는 공식들.
 | 주제 | 카테고리 | 파이썬 | 스위프트 |  
 |:-------------:|:-------------:|:-------------:|:-------------:|
