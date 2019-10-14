@@ -1,6 +1,5 @@
 # Algorithms
 
-
 * 문제를 분석하고 어떤 자료구조나 알고리즘을 사용할지 판단한다.
 
 ## Programmers
