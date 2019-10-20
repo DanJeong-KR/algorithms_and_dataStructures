@@ -6,7 +6,7 @@
 | 주제 | 카테고리 | 파이썬 | 스위프트 |  
 |:-------------:|:-------------:|:-------------:|:-------------:|
 | 파스칼 삼각형 | 최단거리 구할 때 | [![](/images/python_logo.png?raw=true)](/Algorithms/My/pascal_triangle/pascal_triangle.py) | [![](/images/swift_logo.png?raw=true)](/Algorithms/My/pascal_triangle/pascal_triangle.swift) |
-| Heap | 우선순위 큐 사용할 때 | [heapq](https://docs.python.org/ko/3/library/heapq.html?highlight=queue#module-heapq) 모듈 사용 | [![](/images/swift_logo.png?raw=true)](/Algorithms/My/heap/Heap.swift) |
+| Heap | 우선순위 큐 스위프트에는 없네 | [heapq](https://docs.python.org/ko/3/library/heapq.html?highlight=queue#module-heapq) 모듈 사용 | [![](/images/swift_logo.png?raw=true)](/Algorithms/My/heap/Heap.swift) |
 | 재귀호출 | 피보나치 | [![](/images/python_logo.png?raw=true)](/Algorithms/My/Fibonacci/Fibonacci.py) | [![](/images/swift_logo.png?raw=true)](/Algorithms/My/Fibonacci/Fibonacci.swift) |
 
 
