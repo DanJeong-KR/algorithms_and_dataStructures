@@ -1,7 +1,7 @@
 # Algorithms and DataStructures
 
 # 목차
-### [Algorithms](#algo)
+### [알고리즘](#algo)
 * [알고리즘 문제](#algorithm_problem)
   * 프로그래머스
 
@@ -10,7 +10,7 @@
   * 우선순위 큐 스위프트에서 사용할 때
   * 피보나치 수열 반복문, 재귀, 메모제이션 비교
 
-### [DataStructures](#ds)
+### [자료구조](#ds)
 * [Tree](/DataStructures/DataStructures.md/#tree)
 
 
