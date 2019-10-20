@@ -1,4 +1,4 @@
-# 알고리즘
+# <a id="algo">알고리즘</a>
 
 문제를 분석하고 어떤 자료구조나 알고리즘을 사용할지 판단한다.
 
@@ -7,7 +7,7 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|
 | 파스칼 삼각형 | 최단거리 구할 때 | [![](/images/python_logo.png?raw=true)](/Algorithms/My/pascal_triangle/pascal_triangle.py) | [![](/images/swift_logo.png?raw=true)](/Algorithms/My/pascal_triangle/pascal_triangle.swift) |
 | Heap | 우선순위 큐 스위프트에서 사용할 때 | [heapq](https://docs.python.org/ko/3/library/heapq.html?highlight=queue#module-heapq) 모듈 사용 | [![](/images/swift_logo.png?raw=true)](/Algorithms/My/heap/Heap.swift) |
-| 피보나치 수열 | 반복문, 재귀, 메모제이션 비교 | [![](/images/python_logo.png?raw=true)](/Algorithms/My/Fibonacci/Fibonacci.py) | [![](/images/swift_logo.png?raw=true)](/Algorithms/My/Fibonacci/Fibonacci.swift) |
+| 피보나치 수치 | 피보나치 수열 반복문, 재귀, 메모제이션 비교 | [![](/images/python_logo.png?raw=true)](/Algorithms/My/Fibonacci/Fibonacci.py) | [![](/images/swift_logo.png?raw=true)](/Algorithms/My/Fibonacci/Fibonacci.swift) |
 
 
 ### <a id="algorithm_problem">알고리즘 문제</a>
