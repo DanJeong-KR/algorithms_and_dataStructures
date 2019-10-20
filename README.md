@@ -2,21 +2,21 @@
 
 # 목차
 ### [알고리즘](#algo)
-* [알고리즘 문제](#algorithm_problem)
-  * 프로그래머스
-
 * [생각나서 만들어 놓는 것들](#my)
   * 파스칼삼각형
   * 우선순위 큐 스위프트에서 사용할 때
   * 피보나치 수열 반복문, 재귀, 메모제이션 비교
 
+* [알고리즘 문제](#algorithm_problem)
+  * 프로그래머스
+
 ### [자료구조](#ds)
 * [Tree](/DataStructures/DataStructures.md/#tree)
 
 
-
+<br>
 ---
-
+<br>
 
 
 # <a id="algo">알고리즘</a>
@@ -43,11 +43,9 @@
 | Programmers | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | 탐욕법 | Level 2 | [![](/images/python_logo.png?raw=true)](/Algorithms/Programmers/MakingBigNumber_Greedy.py) | |
 | Programmers | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | 힙 | Level 2 | [![](/images/python_logo.png?raw=true)](/Algorithms/Programmers/더맵게/MakeHotter.py) | [![](/images/swift_logo.png?raw=true)](/Algorithms/Programmers/더맵게/MakeHotter.swift) |
 
-
-
+<br>
 ---
-
-
+<br>
 
 # <a id="ds">자료구조</a>
 
